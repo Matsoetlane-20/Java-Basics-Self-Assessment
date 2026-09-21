@@ -10,3 +10,6 @@ public class Q01_PowerAndSquareRoot
       double squareRoot = Math.sqrt(number);
        System.out.println( base + " ^ " + exponent + " = " + power);
       System.out.println("Square root of " + number + " = " +  squareRoot);
+
+    }
+  }   
