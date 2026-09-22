@@ -1,0 +1,30 @@
+public class Array11_RemoveElement {
+    public static void main(String[] args) {
+
+        int[] numbers = {10, 20, 30, 40, 50};
+        int valueToRemove = 30;
+
+        int[] newArray = new int[numbers.length - 1];
+
+        int index = 0;
+
+        for (int number : numbers) {
+            if (number != valueToRemove) {
+                newArray[index] = number;
+                index++;
+            }
+        }
+
+        System.out.println("Original array:");
+        for (int number : numbers) {
+            System.out.print(number + " ");
+        }
+
+        System.out.println();
+
+        System.out.println("Array after removing " + valueToRemove + ":");
+        for (int number : newArray) {
+            System.out.print(number + " ");
+        }
+    }
+}
