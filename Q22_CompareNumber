@@ -1,0 +1,20 @@
+public class Q22_CompareNumbers {
+
+    public static void main(String[] args) {
+
+        int first = 25;
+        int second = 39;
+
+        if (first != second) {
+            System.out.println(first + " != " + second);
+        }
+
+        if (first < second) {
+            System.out.println(first + " < " + second);
+        }
+
+        if (first <= second) {
+            System.out.println(first + " <= " + second);
+        }
+    }
+}
