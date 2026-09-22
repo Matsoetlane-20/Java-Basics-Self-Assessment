@@ -1,0 +1,14 @@
+public class Q34_NumberPattern {
+
+    public static void main(String[] args) {
+
+        int n = 5;
+
+        int nn = n * 10 + n;
+        int nnn = n * 100 + n * 10 + n;
+
+        int result = n + nn + nnn;
+
+        System.out.println("Result = " + result);
+    }
+}
