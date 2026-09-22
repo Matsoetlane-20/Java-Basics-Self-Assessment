@@ -1,0 +1,25 @@
+import java.util.Arrays;
+
+public class Array10_SortArrays {
+    public static void main(String[] args) {
+
+        int[] numbers = {50, 10, 40, 20, 30};
+
+        String[] names = {"Thabo", "Mpho", "Lerato", "Anna"};
+
+        Arrays.sort(numbers);
+        Arrays.sort(names);
+
+        System.out.println("Sorted numeric array:");
+        for (int number : numbers) {
+            System.out.print(number + " ");
+        }
+
+        System.out.println();
+
+        System.out.println("Sorted string array:");
+        for (String name : names) {
+            System.out.print(name + " ");
+        }
+    }
+}
