@@ -1,0 +1,11 @@
+public class Q17_DecimalToOctal {
+
+    public static void main(String[] args) {
+
+        int number = 15;
+
+        String octal = Integer.toOctalString(number);
+
+        System.out.println("Octal number is: " + octal);
+    }
+}
