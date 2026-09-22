@@ -1,0 +1,21 @@
+public class Array12_SecondLargest {
+    public static void main(String[] args) {
+
+        int[] numbers = {10, 40, 20, 50, 30};
+
+        int largest = numbers[0];
+        int secondLargest = numbers[0];
+
+        for (int number : numbers) {
+            if (number > largest) {
+                secondLargest = largest;
+                largest = number;
+            } else if (number > secondLargest && number != largest) {
+                secondLargest = number;
+            }
+        }
+
+        System.out.println("Largest element: " + largest);
+        System.out.println("Second largest element: " + secondLargest);
+    }
+}
