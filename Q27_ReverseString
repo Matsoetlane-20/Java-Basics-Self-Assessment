@@ -1,0 +1,11 @@
+public class Q27_ReverseString {
+
+    public static void main(String[] args) {
+
+        String text = "The quick brown fox";
+
+        String reversed = new StringBuilder(text).reverse().toString();
+
+        System.out.println("Reverse string: " + reversed);
+    }
+}
