@@ -1,0 +1,11 @@
+public class Q16_DecimalToHexadecimal {
+
+    public static void main(String[] args) {
+
+        int number = 15;
+
+        String hexadecimal = Integer.toHexString(number).toUpperCase();
+
+        System.out.println("Hexadecimal number is : " + hexadecimal);
+    }
+}
