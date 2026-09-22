@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Array15_ArrayToArrayList {
+    public static void main(String[] args) {
+
+        Integer[] numbers = {10, 20, 30, 40, 50};
+
+        ArrayList<Integer> numberList =
+                new ArrayList<>(Arrays.asList(numbers));
+
+        System.out.println("ArrayList: " + numberList);
+    }
+}
