@@ -1,0 +1,26 @@
+public class Array14_CompareArrays {
+    public static void main(String[] args) {
+
+        int[] firstArray = {10, 20, 30, 40};
+        int[] secondArray = {10, 20, 30, 40};
+
+        boolean equal = true;
+
+        if (firstArray.length != secondArray.length) {
+            equal = false;
+        } else {
+            for (int i = 0; i < firstArray.length; i++) {
+                if (firstArray[i] != secondArray[i]) {
+                    equal = false;
+                    break;
+                }
+            }
+        }
+
+        if (equal) {
+            System.out.println("The two arrays are equal.");
+        } else {
+            System.out.println("The two arrays are not equal.");
+        }
+    }
+}
