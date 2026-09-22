@@ -1,0 +1,13 @@
+public class Q25_PolygonArea {
+
+    public static void main(String[] args) {
+
+        int numberOfSides = 7;
+        double sideLength = 6;
+
+        double area = (numberOfSides * sideLength * sideLength)
+                / (4 * Math.tan(Math.PI / numberOfSides));
+
+        System.out.println("The area is: " + area);
+    }
+}
